@@ -12,7 +12,7 @@ var test := ObjectBuilder.new(Sprite.new()) \
 		.build()
 ```
 
-**To install and start using**
+# Installation
 - download the source code 
 - drag and drop the `addons` folder into your Godot project
 
