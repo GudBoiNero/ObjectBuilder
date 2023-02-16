@@ -1,6 +1,7 @@
 # ObjectBuilder
 A simple GDScript plugin that allows for simple builder pattern
 
+You can use the ObjectBuilder class to create a quick new object
 ```gdscript
 # Pass in an instance of the Object you would like to build into `new()`
 # Use `set_property()` to set any properties of your Object
@@ -10,3 +11,7 @@ var test := ObjectBuilder.new(Sprite.new()) \
 		.set_property("position", Vector2(1024/2, 600/2)) \
 		.build()
 ```
+
+**To install and start using**
+- download the source code 
+- drag and drop the `addons` folder into your Godot project
