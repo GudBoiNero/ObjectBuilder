@@ -13,9 +13,10 @@ var test := ObjectBuilder.new(Sprite.new()) \
 ```
 
 # Installation
-- download the source code 
-- drag and drop the `addons` folder into your Godot project
+- Download the source code 
+- Drag and drop the `object_builder` folder into your projects `res://addons` directory
 
+# Plans
 *Porting to 4.0 as soon as it's finalized* 
 
 *Won't take long at all*
